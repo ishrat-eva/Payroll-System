@@ -25,7 +25,7 @@ package payroll;
         @Override
         public String toString() {
             return String.format("Base-Salaried Commission Employee: %s\nBase Salary: %.2f",
-                    super.toString(), baseSalary);
+                    employeeToString(),getGrossSales(), getCommissionRate(), baseSalary);
         }
     }
 

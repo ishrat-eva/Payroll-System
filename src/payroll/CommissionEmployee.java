@@ -11,12 +11,18 @@ package payroll;
             this.grossSales = grossSales;
             this.commissionRate = commissionRate;
         }
+        public double getGrossSales() { return grossSales; }
+        public double getCommissionRate() { return commissionRate; }
 
         @Override
         public double earnings() {
 
             return grossSales * commissionRate;
         }
+        protected String employeeToString() {
+            return super.toString();
+        }
+
 
         @Override
         public String toString() {

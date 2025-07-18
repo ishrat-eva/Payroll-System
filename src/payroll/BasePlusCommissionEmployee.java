@@ -1,3 +1,5 @@
+
+
 package payroll;
 
     public class BasePlusCommissionEmployee extends CommissionEmployee {
@@ -24,7 +26,7 @@ package payroll;
 
         @Override
         public String toString() {
-            return String.format("Base-Salaried Commission Employee: %s\nBase Salary: %.2f",
+            return String.format("Base-Salaried Commission Employee: %s\nGross-sales:%.2f \nCommission rate:%.2f \nBase Salary: %.2f",
                     employeeToString(),getGrossSales(), getCommissionRate(), baseSalary);
         }
     }

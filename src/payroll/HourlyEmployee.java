@@ -5,8 +5,7 @@ package payroll;
         private double hourlyWage;
         private double hoursWorked;
 
-        public HourlyEmployee(String firstName, String lastName, String ssn,
-                              double hourlyWage, double hoursWorked) {
+        public HourlyEmployee(String firstName, String lastName, String ssn, double hourlyWage, double hoursWorked) {
             super(firstName, lastName, ssn);
             this.hourlyWage = hourlyWage;
             this.hoursWorked = hoursWorked;
